@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Med Andra Ord</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="game.js"></script>   
+    </head>
+    <body>
+        <section id="intro">
+            <h1>Med Andra Ord</h1>
+            <button id="play">Spela</button>
+        </section>
+        <section id="setup">
+            <h2>Med andra ord: Setup</h2>
+            <fieldset>
+                <label for="team1">Lag 1:</label>
+                <input type="text" id="team1">
+
+                <label for="team1">Lag 2:</label>
+                <input type="text" id="team2">
+                
+                <button id="next">Nästa</button>
+            </fieldset>
+        </section>
+        <section id="countdown">
+            <h2>Med andra ord</h2>
+            <h3>Spelare: <span id="game-round-player">LAGNAMN</span></h3>
+            <h3>Runda <span id="game-round-number">X</span>start om...</h3>
+            <span id="countdown">countdown</span>
+        </section>
+        <section id="gameround">
+            <h2>Jons huvud</h2>
+            <span id="gameround-countdown"> Countdown</span>
+            <button>Rätt</button>
+        </section>
+    </body>
+</html>
